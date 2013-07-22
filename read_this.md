@@ -10,7 +10,7 @@ page.
 
 Dependencies
 ===========
-(both) Ruby 1.9.2 and 1.9.3 As always, run `ruby -v` to see which version of Ruby you are using.  You may also use RVM to (easily) switch between versions of Ruby.  Info on RVM can be found [here](https://rvm.io/). A cheat sheet of RVM commands can be found on the [RVM cheat sheet](http://cheat.errtheblog.com/s/rvm).
+(both) Ruby 1.9.2 and 1.9.3. As always, run `ruby -v` to see which version of Ruby you are using.  You may also use RVM to (easily) switch between versions of Ruby.  Info on RVM can be found [here](https://rvm.io/). A cheat sheet of RVM commands can be found on the [RVM cheat sheet](http://cheat.errtheblog.com/s/rvm).
 
 Gems: rspec, selenium, capybara, watir, cucumber
 
@@ -44,3 +44,4 @@ Running the tests
   `$ cucumber features`
 
 ## Robot Framework
+  Robot is not yet implemented.  
