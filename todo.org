@@ -42,6 +42,7 @@
 ** Test cases
 *** Log_in
 **** DONE Selenium
+     sure seems ugly compared to capybara
 ***** DONE Via IDE
 **** DONE Rspec / Capybara
      :status: integrating YAML
@@ -54,7 +55,10 @@
 ***** DONE Plus cucumber?
        cucumber doesnt work in ruby 1.9.3.  I used ruby 1.9.2.
 **** TODO Google Robot Framework
+     not a big fan of their documentation.  Just seems like a tool too complex 
+     for the majority of tasks
 **** TODO iMacros
+*** Verify elements on the page
 *** Export transactions
 ** Test data
 *** DONE YAML
@@ -64,7 +68,7 @@
 * Environment setup
 * Test execution
 ** Running a suite of tests with
-*** Selenium
+*** RSpec / Selenium
 *** RSpec / Capybara
 *** Watir
 *** Google Robot Framework
@@ -73,6 +77,8 @@
 ** Export this process to my notes
 ** Questions
 *** Should I debug test cases during development or during execution?
+*** If, say, I decide I like Capybara, can I toss in selenium or even watir stuff in 
+    the same files as my Capybara stuff?
 *** Which tests are the fastest?  Why are others slow compared to it?
 ** Create a snippet of a framework that I can deploy for future projects
 ** Create a directory structure that can be used for future similar projects

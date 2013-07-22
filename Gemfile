@@ -8,7 +8,6 @@ group :test do
   gem 'capybara'
   gem 'watir'
   gem 'watir-webdriver'
-  gem 'YAML'
   gem 'factory_girl_rails'
 end
 
