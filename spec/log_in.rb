@@ -1,7 +1,10 @@
 require 'spec_helper'
 
 describe "can I log in?", :type => :feature do
-  it "doesn't log in with bad credentials", :js => true do
+  # swap comment status on below two lines to enable toggle 
+  # between Selenium and Capybara. the `:js => true` is Selenium
+  #it "doesn't log in with bad credentials", :js => true do
+  it "doesn't log in with bad credentials" do
     #init user data
     users = YAML.load_file('factories/users.yaml')
     user = users["tom"]
