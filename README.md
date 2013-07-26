@@ -28,9 +28,9 @@ Running the tests
   `$ rspec view_android_using_selenium.rb`
 
 ### Capybara + Selenium + RSpec
-  Capybara is a high-level API used to make writing tests easier to 
+  *About Capybara:* Capybara is a high-level API used to make writing tests easier to 
   read and more uniform.  In this way, it is like Cucumber, 
-  but it's real purpose in this world is to make testing code
+  but it's real purpose in this world is to make test
   code at lot easier to work with.  Capybara also can work together 
   with Cucumber if it pleases you.
 
