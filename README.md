@@ -24,11 +24,25 @@ Running the tests
 ### Selenium + RSpec
   From the root project directory, run 
   `$ rspec log_in_using_selenium.rb`
+  or
+  `$ rspec view_android_using_selenium.rb`
 
-### Capybara + RSpec
+### Capybara + Selenium + RSpec
+  Capybara is a high-level API used to make writing tests easier to 
+  read and more uniform.  In this way, it is like Cucumber, 
+  but it's real purpose in this world is to make testing code
+  code at lot easier to work with.  Capybara also can work together 
+  with Cucumber if it pleases you.
+
+  For this project, Capybara requires Ruby 1.9.3.  With RVM, you can 
+  switch to 1.9.3 by running
+  `$ rvm use ruby-1.9.3`
+
+  Now for the tests:
+
   Change to the /spec/ directory
   `$ cd spec`
-  then run the rspec test
+  then run the rspec test: 
   `$ rspec log_in.rb`
 
 ### Watir
