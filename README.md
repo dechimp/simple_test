@@ -23,8 +23,11 @@ Running the tests
 
 ### Selenium + RSpec
   From the root project directory, run 
+  
   `$ rspec log_in_using_selenium.rb`
+  
   or
+  
   `$ rspec view_android_using_selenium.rb`
 
 ### Capybara + Selenium + RSpec
@@ -36,13 +39,17 @@ Running the tests
 
   For this project, Capybara requires Ruby 1.9.3.  With RVM, you can 
   switch to 1.9.3 by running
+  
   `$ rvm use ruby-1.9.3`
 
   Now for the tests:
 
   Change to the /spec/ directory
+  
   `$ cd spec`
+  
   then run the rspec test: 
+  
   `$ rspec log_in.rb`
 
 ### Watir
@@ -52,9 +59,11 @@ Running the tests
 ### Watir + Cucucmber
   For this project, Cucumber requires Ruby 1.9.2.  With RVM, you can 
   switch to 1.9.2 by running
+  
   `$ rvm use ruby-1.9.2`
 
   Now for the test. From the root project directory, simply run
+  
   `$ cucumber features`
 
 ### Robot Framework
