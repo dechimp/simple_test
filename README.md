@@ -1,6 +1,6 @@
 What is this?
 ------------
-'Simple Test' is a project for learning first-hand the 
+'Simple Test' is a personal experiment in learning the 
 similarities/differences 
 between the different web-based testing frameworks, such as 
 Selenium, Capybara, RSpec, Cucumber and Google's Robot Framework.  
